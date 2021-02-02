@@ -3,7 +3,7 @@ import Jeopardy from './Jeopardy';
 
 export default function App(props) {
 	const [query, updateQuery] = useState({
-		baseUrl: 'http://jservice.io/',
+		baseUrl: 'https://jservice.io/',
 		apiKey: 'api/',
 		title: 'random',
 		searchURL: ''
